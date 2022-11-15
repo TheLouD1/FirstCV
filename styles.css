@@ -144,7 +144,7 @@ a:hover
 }
 .langues
 {
-  padding-top: 40px;
+  padding-top: 20px;
 }
 .langues ul
 {
@@ -178,10 +178,42 @@ a:hover
   height: 100%;
   background: #D8B097;
 }
-
-
-
-
+.competences
+{
+  padding-top: 20px;
+}
+.competences ul
+{
+  position: relative;
+}
+.competences ul li
+{
+  position: relative;
+  list-style: none;
+  color: #A4AD52;
+}
+.competences ul li span
+{
+  color: #A4AD52;
+  font-weight: 300;
+}
+.competences .percent
+{
+  position:relative;
+  width: 100%;
+  height: 6px;
+  background: #7E8943;
+  display: block;
+  margin-top: 5px;
+}
+.competences .percent div
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #D8B097;
+}
 
 
 .container .right_side
@@ -189,4 +221,31 @@ a:hover
   position: relative;
   background: #ffff;
   padding:40px;
+}
+.container .right_side ul
+{
+  position: relative;
+}
+.container .right_side ul li
+{
+  position: relative;
+  list-style: none;
+  color: #7E8943;
+}
+.container .right_side .title2 h2
+{
+  color: #3c4524;
+}
+.Profil
+{
+  margin-bottom: 50px;
+}
+.about:last-child
+{
+  margin-bottom: 0;
+}
+.title2
+{
+  color: #5c4524
+  position:relative;
 }
