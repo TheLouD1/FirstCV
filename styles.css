@@ -23,6 +23,7 @@ body
   font-weight: 600;
   letter-spacing: 1px;
   margin-bottom: 3px;
+  font-size: 18px;
 }
 
 a
@@ -134,12 +135,14 @@ a:hover
 {
   color: #A4AD52;
   font-weight: 300;
+  font-size: 16px;
 }
 
 .formation
 {
   padding-top: 40px;
   margin-bottom: 15px;
+  font-size: 16px;
 }
 
 .formation title
@@ -157,13 +160,15 @@ a:hover
 .formation h5
 {
   font-weight: 500;
-  color: #D8B097
+  color: #D8B097;
+  font-size: 14px;
 }
 
 .formation h4
 {
   font-weight: 500;
   color: #A4AD52;
+  font-size: 16px;
 }
 
 .langues
@@ -252,6 +257,8 @@ a:hover
   background: #D8B097;
 }
 
+
+
 .container .right_side
 {
   position: relative;
@@ -265,7 +272,7 @@ a:hover
   color: #3c4524;
   font-size: 20px;
   font-weight: bolder;
-  margin-bottom: 35px;
+  margin-bottom: 50px;
 }
 
 .container .right_side .about .icon
@@ -275,11 +282,16 @@ a:hover
   font-weight: bold;
 }
 
+.about li
+{
+  margin-top: 5px;
+}
 .container .right_side .name
 {
   color: #A4AD52;
   font-size: 17px;
   font-weight: bold;
+  margin-top: 5px;
 }
 .name span
 {
@@ -299,5 +311,5 @@ a:hover
   color: #3c4524;
   font-size: 17px;
   font-weight: normal;
-  margin-bottom: 1.5px;
+  margin-bottom: 0px;
 }
